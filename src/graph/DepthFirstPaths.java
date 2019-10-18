@@ -66,6 +66,7 @@ public class DepthFirstPaths {
      * @throws IllegalArgumentException unless {@code 0 <= s < V}
      */
     public DepthFirstPaths(Graph G, int s) {
+        this.s = s;
         //implement me
     }
 

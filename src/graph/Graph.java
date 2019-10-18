@@ -139,7 +139,7 @@ public class Graph {
      * @return the number of vertices in this graph
      */
     public int V() {
-        return V;
+        return -1; //overwrite this code
     }
 
     /**
@@ -148,13 +148,15 @@ public class Graph {
      * @return the number of edges in this graph
      */
     public int E() {
-        return E;
+        return -1; //overwrite this code
     }
 
     // throw an IllegalArgumentException unless {@code 0 <= v < V}
     private void validateVertex(int v) {
+        /** uncomment me
         if (v < 0 || v >= V)
             throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (V-1));
+         **/
     }
 
     /**
@@ -178,6 +180,7 @@ public class Graph {
      */
     public Iterable<Integer> adj(int v) {
         //implement me
+        return null; //overwrite this code
     }
 
     /**
@@ -189,6 +192,7 @@ public class Graph {
      */
     public int degree(int v) {
         //implement me
+        return -1; //overwrite this code
     }
 
 
@@ -199,6 +203,7 @@ public class Graph {
      *         followed by the <em>V</em> adjacency lists
      */
     public String toString() {
+        /** uncomment me
         StringBuilder s = new StringBuilder();
         s.append(V + " vertices, " + E + " edges " + StdOut.NEWLINE);
         for (int v = 0; v < V; v++) {
@@ -209,6 +214,8 @@ public class Graph {
             s.append(StdOut.NEWLINE);
         }
         return s.toString();
+         **/
+        return ""; //remove this code
     }
 
 

@@ -1,4 +1,5 @@
-package graph; /******************************************************************************
+package graph;
+/******************************************************************************
  *  Compilation:  javac graph.DepthFirstSearch.java
  *  Execution:    java graph.DepthFirstSearch filename.txt s
  *  Dependencies: graph.Graph.java lib.StdOut.java
